@@ -1,0 +1,152 @@
+.home1
+{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+.home
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 371px;
+  background-color: bisque;
+  margin-left:50px;
+  margin-top: 140px;
+  border-radius: 20px;
+}
+.home i
+{
+  font-size: 17px;
+  margin-left: 30px;
+}
+.icons
+{
+  display: flex;
+  margin-left: 200px;
+}
+.icons img
+{
+  width: 65%;
+  height: fit-content;
+}
+.home h3
+{
+  font-size: 200%;
+  margin-left: 240px;
+}
+.home p
+{
+  font-family:sans-serif;
+}
+.about
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 371px;
+  background-color: bisque;
+  margin-left: 400px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.about hr
+{
+  background-color: rgb(2, 17, 17);
+  margin-left:0;
+  margin-right:0;
+}
+.about b
+{
+  font-size: x-large;
+  margin-left: 30px;
+}
+.about i
+{
+  margin-left: 30px;
+  font-size: 17px;
+}
+.project
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 371px;
+  background-color: bisque;
+  margin-left: 400px;
+  margin-top: 30px;
+  border-radius: 20px;
+  gap:15px;
+}
+.project hr
+{
+  background-color: rgb(2, 17, 17);
+  margin-left:0;
+  margin-right:0;
+}
+.project b
+{
+  font-size: x-large;
+  margin-left: 10px;
+}
+.project i
+{
+  margin-left: 30px;
+}
+.contact
+{
+  width: 50%;
+  height: 371px;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.contact input
+{
+  border-radius: 5px;
+  padding: 15px;
+  width: 410px;;
+}
+.contact #texa
+{
+  border-radius: 5px;
+  padding: 15px;
+  width: 413px;;
+  height: 77px;
+}
+.contactbut
+{
+  width: 69px;
+    padding: 5px;
+    margin-left: 164px;
+    margin-top: 30px;
+}
+.skills
+{
+  width: 50%;
+  height: 435px;
+  margin-left: 400px;
+  flex-direction: column;
+  background-color: bisque;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.skills img
+{
+  width: 12%;
+}
+.fr
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  justify-content: space-around;
+}
+.skills h2
+{
+  margin-left: 10px;
+}
